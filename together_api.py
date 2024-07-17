@@ -9,7 +9,7 @@ set_verbose=True
 class TogetherLLM:
     def __init__(self,
                  model: str = "together_ai/meta-llama/Llama-3-70b-chat-hf",
-                 together_api_key: str = os.environ["TOGETHER_API_KEY"],
+                 together_api_key: str = "655baa18d5f594c3031513b9cf40b3b81f6b74d24b4e05baa0e43fcaef2bc650",
                  temperature: float = 0.7,
                  max_tokens: int = 512):
         self.model = model
